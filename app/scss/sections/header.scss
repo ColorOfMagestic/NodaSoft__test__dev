@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  margin-bottom: 15px;
+  min-height: 100px;
+  background-color: $headerColor;
+}
+
+.btn__open {
+  padding: 8px 15px;
+  font-size: 20px;
+  color: $whiteColor;
+  background-color: $btnBG;
+  border-radius: 5px;
+  border: none;
+  &:hover {
+    background-color:rgba(165, 199, 249, 0.7);
+  }
+  &:active {
+    transform: translate(2px,2px);
+  }
+}
