@@ -1,0 +1,19 @@
+.page-body{
+  position: relative;
+  width: 100%;
+  background-color: $whiteColor;
+  font-family: "Roboto",sans-serif;
+}
+.container {
+  width: 62.5%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  background-color: $mainColor;
+}
+.wrapper {
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+}
+
